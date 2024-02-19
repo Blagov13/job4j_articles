@@ -27,5 +27,6 @@ public class SimpleArticleService implements ArticleService {
                 .peek(i -> LOGGER.info("Сгенерирована статья № {}", i))
                 .mapToObj((x) -> articleGenerator.generate(words));
         articles.forEach(articleStore::save);
+        System.out.println("Генерация статей завершена");
     }
 }
