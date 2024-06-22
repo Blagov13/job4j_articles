@@ -90,5 +90,3 @@ http://localhost:8080
 **Благодарности:** Спасибо команде Job4j за вдохновение и руководство на протяжении всего этого проекта.
 
 ---
-
-{{README Generator, Author Shashank Atthal}}
